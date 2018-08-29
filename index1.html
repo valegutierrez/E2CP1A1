@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Box Model</title>
+    <style>
+
+        .box{
+            float: left;
+            width: 25%;
+            padding: 0 5px;
+            background-color: pink;
+            text-align: justify;
+            box-sizing: border-box;
+        }
+        #navbar{
+            position: fixed;
+            width: 100%;
+            height: 100px;
+            top: 0;
+            background-color: plum;
+            z-index: 100;
+        }
+        .big-box {
+            position: relative;
+            top: 100px;
+        }
+        ul {
+            list-style: none;
+            margin: 0 auto;
+        }
+        li{
+            padding: 50px;
+            float: left;
+        }
+    </style>
+</head>
+<body>
+    <div id="navbar"><ul><li>Inicio</li><li>Cursos</li><li>Contacto</li></ul></div>
+    <div class="big-box">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis velit veritatis quasi maiores a! Quasi explicabo voluptatum sequi nobis? Voluptatibus at necessitatibus vitae doloremque, error iure beatae omnis exercitationem dolorum! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit nesciunt, illo quasi placeat cum laudantium praesentium suscipit iusto ut quod ipsam dicta eaque consequatur, quam temporibus. Placeat voluptatibus obcaecati at!</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis velit veritatis quasi maiores a! Quasi explicabo voluptatum sequi nobis? Voluptatibus at necessitatibus vitae doloremque, error iure beatae omnis exercitationem dolorum! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit nesciunt, illo quasi placeat cum laudantium praesentium suscipit iusto ut quod ipsam dicta eaque consequatur, quam temporibus. Placeat voluptatibus obcaecati at!</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis velit veritatis quasi maiores a! Quasi explicabo voluptatum sequi nobis? Voluptatibus at necessitatibus vitae doloremque, error iure beatae omnis exercitationem dolorum! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit nesciunt, illo quasi placeat cum laudantium praesentium suscipit iusto ut quod ipsam dicta eaque consequatur, quam temporibus. Placeat voluptatibus obcaecati at!</p>
+        <div class="box"><center><img src="images/Desafio-Latam-Logo-alta-resolución-1.jpg"></center><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis libero ullam consequuntur iusto dolorem perspiciatis nam beatae ipsum fuga incidunt, odit reprehenderit ad illo quam consequatur itaque totam aliquid vero?</p></div>
+        <div class="box"><center><img src="images/Desafio-Latam-Logo-alta-resolución-1.jpg"></center><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis libero ullam consequuntur iusto dolorem perspiciatis nam beatae ipsum fuga incidunt, odit reprehenderit ad illo quam consequatur itaque totam aliquid vero?</p></div>
+        <div class="box"><center><img src="images/Desafio-Latam-Logo-alta-resolución-1.jpg"></center><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis libero ullam consequuntur iusto dolorem perspiciatis nam beatae ipsum fuga incidunt, odit reprehenderit ad illo quam consequatur itaque totam aliquid vero?</p></div>
+        <div class="box"><center><img src="images/Desafio-Latam-Logo-alta-resolución-1.jpg"></center><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis libero ullam consequuntur iusto dolorem perspiciatis nam beatae ipsum fuga incidunt, odit reprehenderit ad illo quam consequatur itaque totam aliquid vero?</p></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,72 @@
+.flags {
+    margin: 5px;
+    width: 300px;
+    height: 225px;
+}
+#spain {
+    background-color: red;
+}
+#yellow {
+    position: relative;
+    top: 33%;
+    background-color: yellow;
+    height: 75px;
+}
+#denmark {
+    position: relative;
+    background-color: red;
+}
+#h-denmark {
+    position: absolute;
+    top: 100px;
+    background-color: white;
+    height: 20px;
+    width: 300px;
+}
+#v-denmark {
+    position: absolute;
+    left: 75px;
+    background-color: white;
+    width: 20px;
+    height: 225px;
+}
+#uae {
+    position: relative;
+    background-color: red;
+}
+#green-uae {
+    position: relative;
+    left: 100px;
+    width: 200px;
+    height: 75px;
+    background-color: green;
+}
+#white-uae {
+    position: relative;
+    left: 100px;
+    width: 200px;
+    height: 75px;
+    background-color: white;
+}
+#black-uae {
+    position: relative;
+    left: 100px;
+    width: 200px;
+    height: 75px;
+    background-color: black;
+}
+#japan {
+    position: relative;
+    background-color: white;
+    border: solid 1px grey;
+}
+#circle {
+    position: relative;
+    top: 25%;
+    left: 100px;
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+  }
